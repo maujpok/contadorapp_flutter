@@ -34,7 +34,7 @@ class _ContadorState extends State<Contador> {
 
   Widget _crearBotones() {
     return Row(
-      // mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         SizedBox(width: 30.0),
         FloatingActionButton(
